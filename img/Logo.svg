@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="261px" height="56px" viewBox="0 0 261 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-249.000000, -186.000000)">
+            <g id="Logo" transform="translate(245.000000, 168.000000)">
+                <text id="H" font-family="OpenSans-Bold, Open Sans" font-size="54.3167952" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0.157812469" y="58">H</tspan>
+                </text>
+                <text id="yper" font-family="OpenSans-Bold, Open Sans" font-size="27.8143983" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="40.6013843" y="57.9555556">yper</tspan>
+                </text>
+                <text id="olatility" font-family="OpenSans-Bold, Open Sans" font-size="27.8143983" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="133.015974" y="57.9555556">olatility</tspan>
+                </text>
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="5.73999995" stroke-linecap="square" points="43.378858 37.707987 108.023601 37.707987 121.994837 66.1363645 135.711636 29.1637897 250.680862 28.3415675"></polyline>
+                <polygon id="Path-2" stroke="#FFFFFF" stroke-width="4.91999996" stroke-linecap="square" fill="#FFFFFF" points="238.901791 21.9472676 257 28.599064 238.901791 34.3767707"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,125 @@
+// font-family: 'Bitter', serif;
+// font-family: 'Open Sans', sans-serif;
+// global
+@import "reset";
+@import "syntax";
+
+// element
+@import "header";
+
+html, body {
+	font-family: "futura-pt" !important;
+}
+
+h2 {
+	font-size: 39px;
+	color: #263238;
+	letter-spacing: 0.81px;
+	font-family: "futura-pt";
+}
+
+h3 {
+	font-family: "futura-pt";
+	font-weight: 300;
+	font-size: 32px;
+	color: #555555;
+	letter-spacing: 0.76px;
+	line-height: 40px;
+	margin-bottom: 3em;
+}
+
+#hero {
+	padding-top: 187px;
+	padding-bottom: 340px;
+	background: red;
+	color: white;
+	h1 {
+		font-family: "futura-pt";
+		font-size: 64px;
+		color: #FFFFFF;
+		letter-spacing: 1.14px;
+		line-height: 1em;
+	}
+	p {
+		font-size: 30px;
+		font-family: "futura-pt";
+		font-weight: 300;
+		letter-spacing: 2px;
+	}
+	button {
+		background: white;
+		color: #263238;
+		box-shadow: 0 0 20px 0 rgba(0,0,0,0.10);
+		border-radius: 15px;
+		padding-left: 95px;
+		padding-right: 95px;
+		font-size: 32px;
+	}
+}
+
+#features {
+	h2, h3 {
+		text-align: center;
+	}
+}
+
+.day {
+	p {
+		font-size: 21px;
+		letter-spacing: 0.67px;
+		color: #9B9B9B;
+		margin: 0;
+	}
+	.day-label {
+		text-transform: uppercase;
+	}
+	h4 {
+		margin: 0;
+		font-size: 32px;
+		letter-spacing: 0.67px;
+		line-height: 36px;
+		font-family: "futura-pt";
+		min-height: 144px;
+	}
+	.day-description {
+		margin-top: 1em;
+	}
+}
+
+#claim {
+	background: #263238;
+	border: 1px solid #4A4A4A;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
+	text-align: center;
+	
+	q {
+		color: white;
+		display: block;
+		font-size: 48px;
+		letter-spacing: 1px;
+		line-height: 62px;
+		margin-top: 54px;
+		margin-bottom: 40px;
+	}
+	
+	p {
+		color: white;
+		font-size: 24px;
+		color: #FF9A44;
+		span {
+			color: #FC6076;
+		}
+	}
+}
+
+#pricing {
+	padding-top: 97px;
+	padding-bottom: 90px;
+	background-image: -webkit-linear-gradient(305deg, #FC6076 1%, #FF9A44 100%);
+	background-image: -o-linear-gradient(305deg, #FC6076 1%, #FF9A44 100%);
+	background-image: linear-gradient(35deg, #FC6076 1%, #FF9A44 100%);
+	h2 {
+		color: white;
+		text-align: center;
+	}
+}
