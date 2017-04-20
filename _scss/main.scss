@@ -11,17 +11,18 @@ html, body {
 	font-family: "futura-pt" !important;
 }
 
+h1,h2,h3,h4 {
+	font-family: "futura-pt";
+}
+
 h2 {
 	font-size: 39px;
 	color: #263238;
 	letter-spacing: 0.81px;
-	font-family: "futura-pt";
 	margin-bottom: 0;
 }
 
 h3 {
-	font-family: "futura-pt";
-	font-weight: 300;
 	font-size: 32px;
 	color: #555555;
 	letter-spacing: 0.76px;
@@ -36,7 +37,6 @@ h3 {
 	background: red;
 	color: white;
 	h1 {
-		font-family: "futura-pt";
 		font-size: 64px;
 		color: #FFFFFF;
 		letter-spacing: 1.14px;
@@ -93,6 +93,7 @@ h3 {
 	border: 1px solid #4A4A4A;
 	box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
 	text-align: center;
+	padding-bottom: 62px;
 	
 	q {
 		color: white;
@@ -175,5 +176,46 @@ h3 {
 			padding: 0;
 			line-height: 2em;
 		}
+	}
+}
+
+#people {
+	.row {
+		margin-bottom: 40px;
+	}
+	h4 {
+		font-size: 28px;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	img {
+		height: 200px;
+	}
+	p {
+		margin: 0;
+		font-size: 21px;
+		color: #555555;
+	}
+	a {
+		text-decoration: underline;
+	}
+	margin-bottom: 50px;
+}
+
+#last-call {
+	background: #263238;
+	border: 1px solid #4A4A4A;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,0.10);
+	text-align: center;
+	padding-bottom: 62px;
+	
+	p {
+		color: white;
+		display: block;
+		font-size: 48px;
+		letter-spacing: 1px;
+		line-height: 62px;
+		margin-top: 54px;
+		margin-bottom: 40px;
 	}
 }
