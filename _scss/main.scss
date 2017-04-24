@@ -16,14 +16,14 @@ h1,h2,h3,h4 {
 }
 
 h2 {
-	font-size: 39px;
+	font-size: 35px;
 	color: #263238;
 	letter-spacing: 0.81px;
 	margin-bottom: 0;
 }
 
 h3 {
-	font-size: 32px;
+	font-size: 24px;
 	color: #555555;
 	letter-spacing: 0.76px;
 	line-height: 40px;
@@ -66,22 +66,28 @@ h3 {
 }
 
 .day {
+	margin-bottom: 70px;
+
 	p {
-		font-size: 21px;
-		letter-spacing: 0.67px;
+		font-size: 18px;
+		letter-spacing: 0.3px;
 		color: #9B9B9B;
 		margin: 0;
 	}
 	.day-label {
 		text-transform: uppercase;
+		font-size: 14px;
+	}
+	img {
+		height: 150px;
 	}
 	h4 {
 		margin: 0;
-		font-size: 32px;
+		font-size: 28px;
 		letter-spacing: 0.67px;
 		line-height: 36px;
 		font-family: "futura-pt";
-		min-height: 144px;
+		min-height: 80px;
 	}
 	.day-description {
 		margin-top: 1em;
@@ -175,6 +181,9 @@ h3 {
 			margin: 0;
 			padding: 0;
 			line-height: 2em;
+		}
+		button {
+			box-shadow: 0 0 20px 0 rgba(black,0.20), 0 0 3px rgba(black,.20);
 		}
 	}
 }
