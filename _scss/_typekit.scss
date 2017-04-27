@@ -1,0 +1,18 @@
+// this animates the fonts until the fonts are ready
+
+h1,h2,h3,h4,p,a,q {
+  opacity: 1;
+  transition: transform .4s ease-in-out, opacity .4s ease-in-out;
+  -webkit-transform: translateY(0);  
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.wf-loading {
+	h1,h2,h3,h4,p,a,q {
+	  opacity: 0;
+	  -webkit-transform: translateY(-20px);
+	      -ms-transform: translateY(-20px);
+	          transform: translateY(-20px);
+	}
+}
